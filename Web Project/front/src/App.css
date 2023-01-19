@@ -1,0 +1,103 @@
+:root {
+  --white-clr: white;
+  --purple-clr: rgb(92, 82, 166);
+  --black-clr: rgba(0, 0, 0, 0.8);
+}
+
+.formbox {
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  padding: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: var(--black-clr);
+  box-shadow: 0 10px 20px var(--black-clr);
+  border-radius: 20px;
+}
+
+.formbox h1 {
+  padding: 13px 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: var(--white-clr);
+}
+
+.inputbox {
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px 0 30px 0;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 2px solid var(--purple-clr);
+}
+
+.inputbox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+  color: var(--white-clr);
+}
+
+.inputbox input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  color: var(--white-clr);
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background: none;
+  border: 2px solid var(--purple-clr);
+  border-radius: 5px;
+  color: var(--white-clr);
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  color: var(--white-clr);
+  background-color: var(--purple-clr);
+}
+
+.selectbox {
+  margin-bottom: 20px;
+}
+
+.selectbox select {
+  background-color: var(--purple-clr);
+  color: white;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  font-size: medium;
+  outline: none;
+}
+
+#hide {
+  display: none;
+}
+
+.note {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.note_info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note_text {
+  width: 275px;
+  font-size: 40px;
+}
