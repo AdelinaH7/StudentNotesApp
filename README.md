@@ -1,1 +1,1 @@
-# web-project
+# StudentNotesApp
